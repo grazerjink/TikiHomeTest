@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tiki Home Test</string>
+
+    <!-- Message popup title & content -->
+    <string name="message_popup_confirm_title">Xác nhận</string>
+    <string name="message_popup_cancel_title">Hủy</string>
+    <string name="message_popup_no_title">Không</string>
+    <string name="message_popup_ok_title">OK</string>
+    <string name="message_popup_error_title">Lỗi</string>
+    <string name="message_popup_inform_title">Thông báo</string>
+    <string name="message_popup_fail_title">Thất bại</string>
+    <string name="message_popup_success_title">Thành công</string>
+
+    <!-- Server error message -->
+    <string name="server_no_data_error">Hệ thống chưa cập nhật dữ liệu</string>
+    <string name="server_no_internet_error">Vui lòng kiểm tra kết nối mạng</string>
+    <string name="server_page_not_found_error">Không tìm thấy dữ liệu</string>
+    <string name="server_bad_request_error">Dữ liệu lỗi, vui lòng thử lại</string>
+    <string name="server_failed_error">Lỗi hệ thống</string>
+    <string name="server_unknown_error">Xảy ra lỗi, vui lòng thử lại</string>
+
+    <!-- Keyword screen -->
+    <string name="keyword_list_title">Từ khóa HOT</string>
+
+</resources>

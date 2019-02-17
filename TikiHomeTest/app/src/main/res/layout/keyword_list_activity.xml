@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="viewModel"
+                  type="com.winsonmac.tikihometest.controllers.keyword.KeywordListViewModel"/>
+    </data>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".controllers.keyword.KeywordListActivity">
+
+        <android.support.v7.widget.RecyclerView
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="0dp"
+                android:clipToPadding="false"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                app:horizontalLayoutManager="@{true}"
+                app:adapter="@{viewModel.mKeywordAdapter}"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</layout>
